@@ -1,0 +1,29 @@
+.body {
+    position: absolute;
+    font-family: 'Arial', sans-serif;
+    background: url('/public/Illustration2.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.home{
+    position: absolute;
+    z-index: 2;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.home a i{
+    z-index: 2;
+    color: #ffffff69;
+    font-size: 6vh;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;   
+}
+
+.home a i:hover{
+    text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 13px #f09, 0 0 38px #f09, 0 0 73px #f09;
+    transform: scale(1.05);
+}

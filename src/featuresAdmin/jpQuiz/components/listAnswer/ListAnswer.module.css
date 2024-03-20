@@ -1,0 +1,10 @@
+.correct {
+    color: #00ff3c !important;
+    font-weight: 600 !important;
+
+}
+
+.incorrect {
+    color: red !important;
+    font-weight: bold !important;
+}

@@ -1,0 +1,73 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.h2 {
+    top: 0;
+    color: #333;
+    margin-top: 10vh;
+    font-size: 8vh;
+    position: absolute;
+}
+
+.form {
+    margin-top: 26vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.o_nhap{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.o_checkbox{
+
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+}
+
+textarea {
+    white-space: pre-wrap; /* Cho phép xuống dòng */
+    overflow-y: auto; /* Hiển thị thanh cuộn khi nội dung quá dài */
+    height: 288px;
+    width: 905px;
+}
+.container_answer{
+    display: flex;
+}
